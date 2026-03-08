@@ -33,7 +33,7 @@ bi_report_agent/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/bi_report_agent.git
+git clone https://github.com/YOUR_USERNAME/BI_report_agent.git
 cd bi_report_agent
 ```
 
