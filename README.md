@@ -19,7 +19,7 @@ for any company.
 
 ##  Project Structure
 ```
-bi_report_agent/
+BI_report_agent/
 ├── .env                  # API keys (never committed)
 ├── main.py               # Entry point
 ├── agents.py             # Agent definitions
@@ -100,7 +100,7 @@ The system generates a structured report with 9 sections:
 
 Create a file called `.gitignore` in the project root. This prevents secrets and junk from being uploaded:
 ```
-# API keys — NEVER upload this
+# API keys 
 .env
 
 # Virtual environment
@@ -109,5 +109,5 @@ venv311/
 __pycache__/
 *.pyc
 
-# Generated output (optional — remove this line if you want to include reports)
+# Generated output (optional)
 output/
